@@ -11,6 +11,7 @@ body
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
+
 /*----------navbar start-------*/
 p
 {
@@ -66,53 +67,54 @@ body ul li:hover
 }
 /*----------navbar end-------*/
 
-
 /*----------background start-------*/
+#banner {
+  margin-bottom: 50px;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  clear: both;
+  background: transparent url(hj.jpg) center center no-repeat fixed;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  letter-spacing:0.5rem;
+}
 
-.header{
-  position: absolute;
-  z-index: 1000;
-  top: 35%;
-  width:100%;
-  max-width:100%;
+.wrap-center{
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
 
+}
+
+.banner-centered {
+  text-align: center;
+  position: relative;
+  display: block;
+  height: inherit;
+  overflow: hidden;
+  margin-top: 220px;
   color:white;
 }
 
-.header h1{
-  font-size:3.5rem;
-  font-weight:bold;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing:1rem;
-
-
+#banner-text h2 {
+  line-height: 1.5;
+  display: block;
 }
-.header h5{
- 
+
+.banner-centered h5 {
+
   font-size: 13px;
-  font-family: "Raleway", sans-serif;
-  letter-spacing:1px;
-}
+  letter-spacing:0.2rem;
+  color:white;
 
-.heading-content{
-	height: 600px;
-	padding: 50px;
-}
-
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
 }
 /*----------background end-------*/
 
 
 /*----------about start-------*/
-
 #about
-
-
-
 .btn
 {
 	border:2px solid transparent;
@@ -129,8 +131,6 @@ body ul li:hover
 	text-decoration:none;
 	font-size:1em;
 	text-transform: uppercase;
-;
-
 }
 
 .btn:hover
@@ -139,19 +139,11 @@ body ul li:hover
 	cursor: pointer;
 	border: 7px;
 	box-shadow: 0 0 10px #c0d0d8, 0 0 10px, 0 0 10px #c0d0d8 ;
-
-	
 }
-
-
 /*----------about end-----------------*/
 
 
-
 /*----------education start-----------------*/
-
-
-
 .btn
 {
 	color: #fff;
@@ -165,7 +157,6 @@ body ul li:hover
 	width:40%;
 	background: #000;
 	margin-top: 20px;
-
 }
 
 .card-title
@@ -174,9 +165,6 @@ body ul li:hover
     letter-spacing:0rem;
     font-size:1rem;
     font-weight: bolder;
-  
-
-
 }
 
 .card p
@@ -185,16 +173,27 @@ body ul li:hover
 	 font-family: 'Raleway', sans-serif; 
       letter-spacing:0rem;
       color:#737373;
- 
 }
-
-
 
 /*----------education end-----------------*/
 
 
+/*----------skills start-----------------*/
+video { 
+    position: relative;
+    transition: 1s opacity;
+  width:100%;
+  background: #000;
+  margin-top: 10px;
+}
+.stopfade { 
+   opacity: .5;
+}
+/*----------skills end-----------------*/
 
-#contact
+
+/*----------contact start-----------------*/
+contact
 .btn
 {
 	color: #fff;
@@ -233,6 +232,11 @@ textarea::placeholder
 	  font-family: 'Raleway', sans-serif; 
       font-size:15px;
 }
+/*----------contact end-----------------*/
+
+
+
+/*----------footer start-----------------*/
 
  #footer {
 
@@ -294,15 +298,5 @@ textarea::placeholder
   margin: 0 0 5px 0;
 }
 
-
-video { 
-    position: relative;
-    transition: 1s opacity;
-	width:100%;
-	background: #000;
-	margin-top: 10px;
-}
-.stopfade { 
-   opacity: .5;
-}
+/*----------footer end-----------------*/
 
