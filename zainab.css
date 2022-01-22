@@ -75,7 +75,7 @@ body ul li:hover
   height: 500px;
   position: relative;
   clear: both;
-  background: transparent url(hj.jpg) center center no-repeat fixed;
+  background: transparent url(images/main.jpg) center center no-repeat fixed;
   background-size: cover;
   font-family: "Raleway", sans-serif;
   letter-spacing:0.5rem;
@@ -135,10 +135,11 @@ body ul li:hover
 
 .btn:hover
 {
-
 	cursor: pointer;
 	border: 7px;
 	box-shadow: 0 0 10px #c0d0d8, 0 0 10px, 0 0 10px #c0d0d8 ;
+  color: #c0d0d8;
+
 }
 /*----------about end-----------------*/
 
@@ -193,8 +194,7 @@ video {
 
 
 /*----------contact start-----------------*/
-contact
-.btn
+#contact.btn
 {
 	color: #fff;
 	letter-spacing:0.1rem;
@@ -207,7 +207,6 @@ contact
 	width:40%;
 	background: #000;
 	margin-top: 20px;
-
 }
 
 p
@@ -239,15 +238,13 @@ textarea::placeholder
 /*----------footer start-----------------*/
 
  #footer {
-
-
   bottom: 0;
-  background: url("hr.jpg") top center no-repeat;
+  background: url("images/main.jpg") left center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 35px 0;
   position: relative;
 }
 
@@ -269,22 +266,22 @@ textarea::placeholder
 }
 
 
-#footer .social-links {
-  margin: 0 0 40px 0;
+.social-links {
+  margin: 25px 0 40px 0;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #c0d0d8;
+  background: #5e7885;
   color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  line-height: 1.5;
+  padding: 10px 0;
+  margin-right: 8px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 
@@ -292,6 +289,7 @@ textarea::placeholder
   background: #c0d0d8;
   color: #fff;
   text-decoration: none;
+
 }
 
 #footer .copyright {
